@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<title>POST</title>
+<link rel="stylesheet" type="text/css" href="stylefirst.css">
+<style>
+	::placeholder {
+    color: purple;
+}
+</style>
+<script>
+	function checkpost()
+	{
+		var p=document.forms["myform"]["entry"].value;
+		if(p=="")
+		{
+			alert("Don't Be lazy");
+			alert("Please Share Something");
+			return false;
+		}
+	}
+</script>
+</head>
+<body>
+	<div class="contact-title">
+		<h1>Write Your Post Here</h1>
+	</div>
+	<div class="contact-form">
+		<form id="contact-form" onsubmit="return checkpost()" method="POST" action="new.php" name="myform">
+			<input type="text" name="entry" class="form-control" placeholder="Write Your Post"><br><br></textarea>
+			<input type="submit" class="form-control submit" value="Save">
+	</div>
+</body>
+</html>

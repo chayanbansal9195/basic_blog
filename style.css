@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-image: url("i.jpg");
+	background-size: cover ;
+	background-position: center;
+	font-family: "courier";
+}
+.contact-title
+{
+	margin-top: 50px;
+	
+	text-transform: uppercase;
+
+}
+.contact-title h1{
+	font-size: 100px;
+	line-height: 5px;
+    color:#eb984e;
+}
+.contact-title h2
+{
+	font-size:40px;
+    color:  red ;
+    font-weight: bolder;
+}
+ form
+{
+	margin-top: 50px;
+}
+ .form-control
+{
+	width: 400px;
+	background: transparent;
+	border:none;
+	border-bottom: 3px solid gray;
+	color:purple;
+	font-family: "courier";
+	font-size: 30px;
+	font-weight: bolder;
+	margin-bottom: 16px;
+}
+
+input
+{
+	height: 50px;
+
+}
+form .submit
+{
+	border: 2px solid black;
+	border-radius: 20px 20px 20px 20px;
+	font-size: 20px;
+	font-weight: bolder;
+	letter-spacing: 3px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit:hover
+{
+	background-color: #808b96 ;
+	color: pink;
+}
